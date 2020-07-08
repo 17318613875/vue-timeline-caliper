@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("vue"));
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["vue-timeline"] = factory(require("vue"));
-	else
-		root["vue-timeline"] = factory(root["Vue"]);
-})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__) {
-return /******/ (function(modules) { // webpackBootstrap
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -108,6 +99,17 @@ test[TO_STRING_TAG] = 'z';
 
 module.exports = String(test) === '[object z]';
 
+
+/***/ }),
+
+/***/ "01d1":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VueTimelineCaliper_vue_vue_type_style_index_0_id_687dd4a3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("271a");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VueTimelineCaliper_vue_vue_type_style_index_0_id_687dd4a3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VueTimelineCaliper_vue_vue_type_style_index_0_id_687dd4a3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VueTimelineCaliper_vue_vue_type_style_index_0_id_687dd4a3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -475,13 +477,6 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 /***/ }),
 
-/***/ "25d9":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "25f0":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -512,6 +507,13 @@ if (NOT_GENERIC || INCORRECT_NAME) {
   }, { unsafe: true });
 }
 
+
+/***/ }),
+
+/***/ "271a":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -1641,7 +1643,7 @@ module.exports = store.inspectSource;
 /***/ "8bbf":
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__8bbf__;
+module.exports = require("vue");
 
 /***/ }),
 
@@ -4467,7 +4469,7 @@ function DrawTimeLine(ctx, _ref3) {
     account++;
   } while (account < duration_);
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--15-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/ts-loader??ref--15-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VueTimeline.vue?vue&type=script&lang=tsx&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--15-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/ts-loader??ref--15-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VueTimelineCaliper.vue?vue&type=script&lang=tsx&
 
 
 
@@ -4477,15 +4479,15 @@ function DrawTimeLine(ctx, _ref3) {
 
 
 
-var VueTimelinevue_type_script_lang_tsx_VueTimeline = /*#__PURE__*/function (_Vue) {
-  _inherits(VueTimeline, _Vue);
+var VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper = /*#__PURE__*/function (_Vue) {
+  _inherits(VueTimelineCaliperCaliper, _Vue);
 
-  var _super = _createSuper(VueTimeline);
+  var _super = _createSuper(VueTimelineCaliperCaliper);
 
-  function VueTimeline() {
+  function VueTimelineCaliperCaliper() {
     var _this;
 
-    _classCallCheck(this, VueTimeline);
+    _classCallCheck(this, VueTimelineCaliperCaliper);
 
     _this = _super.apply(this, arguments);
     _this.offsetTime = 5;
@@ -4493,7 +4495,7 @@ var VueTimelinevue_type_script_lang_tsx_VueTimeline = /*#__PURE__*/function (_Vu
     return _this;
   }
 
-  _createClass(VueTimeline, [{
+  _createClass(VueTimelineCaliperCaliper, [{
     key: "onChangePxSVal",
     value: function onChangePxSVal(newVal, oldVal) {
       newVal != oldVal && this.Draw();
@@ -4661,20 +4663,20 @@ var VueTimelinevue_type_script_lang_tsx_VueTimeline = /*#__PURE__*/function (_Vu
     }
   }]);
 
-  return VueTimeline;
+  return VueTimelineCaliperCaliper;
 }(external_commonjs_vue_commonjs2_vue_root_Vue_default.a);
 
 __decorate([Prop({
   default: 500,
   type: Number
-})], VueTimelinevue_type_script_lang_tsx_VueTimeline.prototype, "width", void 0);
+})], VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper.prototype, "width", void 0);
 
-__decorate([PropSync("currentTime")], VueTimelinevue_type_script_lang_tsx_VueTimeline.prototype, "currentTimeSync", void 0);
+__decorate([PropSync("currentTime")], VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper.prototype, "currentTimeSync", void 0);
 
 __decorate([Prop({
   default: 46,
   type: Number
-})], VueTimelinevue_type_script_lang_tsx_VueTimeline.prototype, "height", void 0);
+})], VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper.prototype, "height", void 0);
 
 __decorate([Prop({
   default: 10,
@@ -4682,26 +4684,26 @@ __decorate([Prop({
   validator: function validator(val) {
     return val * 1 > 0;
   }
-})], VueTimelinevue_type_script_lang_tsx_VueTimeline.prototype, "unitPx", void 0);
+})], VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper.prototype, "unitPx", void 0);
 
 __decorate([Prop({
   default: 1,
   type: Number
-})], VueTimelinevue_type_script_lang_tsx_VueTimeline.prototype, "unitTime", void 0);
+})], VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper.prototype, "unitTime", void 0);
 
 __decorate([Prop({
   default: 1,
   type: Number
-})], VueTimelinevue_type_script_lang_tsx_VueTimeline.prototype, "duration", void 0);
+})], VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper.prototype, "duration", void 0);
 
-__decorate([Watch("PxS")], VueTimelinevue_type_script_lang_tsx_VueTimeline.prototype, "onChangePxSVal", null);
+__decorate([Watch("PxS")], VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper.prototype, "onChangePxSVal", null);
 
-VueTimelinevue_type_script_lang_tsx_VueTimeline = __decorate([vue_class_component_esm({})], VueTimelinevue_type_script_lang_tsx_VueTimeline);
-/* harmony default export */ var VueTimelinevue_type_script_lang_tsx_ = (VueTimelinevue_type_script_lang_tsx_VueTimeline);
-// CONCATENATED MODULE: ./src/components/VueTimeline.vue?vue&type=script&lang=tsx&
- /* harmony default export */ var components_VueTimelinevue_type_script_lang_tsx_ = (VueTimelinevue_type_script_lang_tsx_); 
-// EXTERNAL MODULE: ./src/components/VueTimeline.vue?vue&type=style&index=0&id=e7f43232&scoped=true&lang=css&
-var VueTimelinevue_type_style_index_0_id_e7f43232_scoped_true_lang_css_ = __webpack_require__("fef0");
+VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper = __decorate([vue_class_component_esm({})], VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper);
+/* harmony default export */ var VueTimelineCalipervue_type_script_lang_tsx_ = (VueTimelineCalipervue_type_script_lang_tsx_VueTimelineCaliperCaliper);
+// CONCATENATED MODULE: ./src/components/VueTimelineCaliper.vue?vue&type=script&lang=tsx&
+ /* harmony default export */ var components_VueTimelineCalipervue_type_script_lang_tsx_ = (VueTimelineCalipervue_type_script_lang_tsx_); 
+// EXTERNAL MODULE: ./src/components/VueTimelineCaliper.vue?vue&type=style&index=0&id=687dd4a3&scoped=true&lang=css&
+var VueTimelineCalipervue_type_style_index_0_id_687dd4a3_scoped_true_lang_css_ = __webpack_require__("01d1");
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -4803,7 +4805,7 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./src/components/VueTimeline.vue
+// CONCATENATED MODULE: ./src/components/VueTimelineCaliper.vue
 var render, staticRenderFns
 
 
@@ -4813,26 +4815,26 @@ var render, staticRenderFns
 /* normalize component */
 
 var component = normalizeComponent(
-  components_VueTimelinevue_type_script_lang_tsx_,
+  components_VueTimelineCalipervue_type_script_lang_tsx_,
   render,
   staticRenderFns,
   false,
   null,
-  "e7f43232",
+  "687dd4a3",
   null
   
 )
 
-/* harmony default export */ var components_VueTimeline = (component.exports);
+/* harmony default export */ var VueTimelineCaliper = (component.exports);
 // CONCATENATED MODULE: ./src/components/index.js
 
 
 
-components_VueTimeline.install = function (Vue) {
-  Vue.component(components_VueTimeline.name, components_VueTimeline);
+VueTimelineCaliper.install = function (Vue) {
+  Vue.component(VueTimelineCaliper.name, VueTimelineCaliper);
 };
 
-/* harmony default export */ var components = (components_VueTimeline);
+/* harmony default export */ var components = (VueTimelineCaliper);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
@@ -4967,19 +4969,7 @@ module.exports = NATIVE_SYMBOL
   && typeof Symbol.iterator == 'symbol';
 
 
-/***/ }),
-
-/***/ "fef0":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VueTimeline_vue_vue_type_style_index_0_id_e7f43232_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("25d9");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VueTimeline_vue_vue_type_style_index_0_id_e7f43232_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VueTimeline_vue_vue_type_style_index_0_id_e7f43232_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VueTimeline_vue_vue_type_style_index_0_id_e7f43232_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
 /***/ })
 
 /******/ })["default"];
-});
-//# sourceMappingURL=vue-timeline.umd.js.map
+//# sourceMappingURL=vue-timeline-caliper.common.js.map
