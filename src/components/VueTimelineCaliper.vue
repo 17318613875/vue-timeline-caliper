@@ -3,7 +3,7 @@ import { Vue, Component, Prop, PropSync, Watch } from "vue-property-decorator";
 import { PointTime, DrawTimeLine } from "./util";
 
 @Component({})
-export default class VueTimeline extends Vue {
+export default class VueTimelineCaliperCaliper extends Vue {
   @Prop({ default: 500, type: Number }) width!: number;
   @PropSync("currentTime") currentTimeSync!: number;
   @Prop({ default: 46, type: Number }) height!: number;

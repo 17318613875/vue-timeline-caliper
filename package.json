@@ -1,9 +1,9 @@
 {
-  "name": "vue-timeline",
-  "version": "0.1.0",
-  "description": "Vue timeline",
-  "main": "./dist/vue-timeline.umd.min.js",
-  "types": "./types/vue-timeline.d.ts",
+  "name": "vue-timeline-caliper",
+  "version": "0.1.1",
+  "description": "Vue timeline Caliper",
+  "main": "./dist/vue-timeline-caliper.umd.min.js",
+  "types": "./types/vue-timeline-caliper.d.ts",
   "files": [
     "dist/**",
     "types/**"
@@ -15,7 +15,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "package": "vue-cli-service build --modern --target lib --name vue-timeline ./src/components/index.js"
+    "package": "vue-cli-service build --modern --target lib --name vue-timeline-caliper ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",

@@ -1,7 +1,7 @@
-import VueTimeline from "./VueTimeline.vue";
+import VueTimelineCaliper from "./VueTimelineCaliper.vue";
 
-VueTimeline.install = function(Vue) {
-  Vue.component(VueTimeline.name, VueTimeline);
+VueTimelineCaliper.install = function(Vue) {
+  Vue.component(VueTimelineCaliper.name, VueTimelineCaliper);
 };
 
-export default VueTimeline;
+export default VueTimelineCaliper;

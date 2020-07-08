@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <VueTimeline
+    <VueTimelineCaliper
       :currentTime.sync="currentTime"
       :unitPx="unitPx"
       :unitTime="unitTime"
       :duration="duration"
     >
       <div>videoLine</div>
-    </VueTimeline>
+    </VueTimelineCaliper>
     <input type="number" v-model.number="unitPx" />
     <input type="number" v-model.number="unitTime" />
   </div>
@@ -15,11 +15,11 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import VueTimeline from "./components/VueTimeline.vue";
+import VueTimelineCaliper from "./components/VueTimelineCaliper.vue";
 
 @Component({
   components: {
-    VueTimeline
+    VueTimelineCaliper
   }
 })
 export default class App extends Vue {

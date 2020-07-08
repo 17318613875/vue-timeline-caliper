@@ -10,9 +10,9 @@ yarn add vue-gl-transitions
 
 ```tsx
 ...
-import VueTimeline from "./components/VueTimeline.vue";
+import VueTimelineCaliper from "./components/VueTimelineCaliper.vue";
 
-@Component({ components: { VueTimeline } })
+@Component({ components: { VueTimelineCaliper } })
 export default class App extends Vue {
   private width = 600;
   private currentTime = 10.123;
@@ -23,14 +23,14 @@ export default class App extends Vue {
   protected render() {
     const { currentTime, unitPx, unitTime, duration }
     return (
-      <VueTimeline
+      <VueTimelineCaliper
         currentTime.sync={currentTime}
         unitPx={unitPx}
         unitTime={unitTime}
         duration={duration}
       >
         <div>videoLine</div>
-      </VueTimeline>
+      </VueTimelineCaliper>
     )
   }
 }

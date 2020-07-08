@@ -1,7 +1,7 @@
 import Vue from "vue";
 
-declare class VueTimeline extends Vue {
+declare class VueTimelineCaliper extends Vue {
   install(vue: typeof Vue): void;
 }
 
-export default VueTimeline;
+export default VueTimelineCaliper;
